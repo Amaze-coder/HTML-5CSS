@@ -3,6 +3,8 @@
 :root {
     --primary-color:
     #FDBA74ed;
+    --dark-grey: 
+    #6B7280
 }
 
 body {
@@ -66,9 +68,11 @@ hr{
 /**navigation**/
 
 .navigation{
-    padding:0rem 1rem;
+    padding:0.5rem 1rem;
     background-color: var(--primary-color);
     color:white;
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius: 1rem ;
 }
 
 .navigation .nav-brand{
@@ -84,5 +88,28 @@ hr{
 .navigation .link{
 
     color:white;
+
 }
  
+.navigation .link-active{
+    font-weight: bold;
+
+}
+
+/**header**/
+
+.hero .hero-img {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}   
+
+.hero .hero-heading{
+    color:var(--dark-grey) ;
+    text-align: center;
+}
+
+.hero .hero-heading .heading-inverted{
+    color: var(--primary-color);
+    
+}
