@@ -184,3 +184,13 @@ hr{
 .showcase-blog {
     padding-bottom: 6rem;
 }
+#r1{
+    border-radius: 1rem;
+    background-color: aqua;
+    height: 400px;
+    width: 400px;;
+    padding: 1rem;
+    display: inline;
+    margin: 90%;
+    
+}
