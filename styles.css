@@ -81,15 +81,19 @@ hr{
     background-color: var(--primary-color);
     color:white;
     border-bottom-left-radius: 1rem;
-    border-top-right-radius: 1rem ;
+    border-bottom-right-radius: 1rem ;
     margin: auto;
 }
 
 .navigation .nav-brand{
     font-weight:bold;
+    font-size: larger;
     
 }
 
+.navigation .nav-pills .link:hover{
+    font-weight: bolder;
+}
 
 .navigation .nav-pills{
     text-align:right;
@@ -146,10 +150,13 @@ hr{
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
 }
-
-.footer .link {
-    color: white
+.footer .link{
+    color:#94A3B8 ;
+}
+.footer .link:hover{
+    color: white;
 }
 
 .footer .footer-header {
