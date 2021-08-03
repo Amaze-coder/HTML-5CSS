@@ -45,6 +45,11 @@ hr{
     /* margin-top: 1rem;
     margin-bottom: 1rem; */
 }
+.link:hover{
+    background-color: var(--primary-color);
+    color: aliceblue;
+}
+
 
 .link-primary{
     background-color: var(--primary-color);
